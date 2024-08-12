@@ -6,31 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
 </head>
 <body>
     <div class="main">
         <div class="header">
             <div class="top">
-                <div class="search">ICON</div>
-                <div class="notification">ICON</div>
-                <div class="profile-pic"> ICON</div>
-                <div class="profile-name">Morgan Oakley</div>
+                <div class="search"><img src="images/search.svg" alt="search"></div>
+                <div class="search-bar"></div>
+                <div class="notification"><img src="images/bell.svg" alt="notification"></div>
+                <div class="profile-pic"><img src="images/account-circle.svg" alt="profile-pic"></div>
+                <div class="profile-name"> Morgan Oakley</div>
             </div>
             <div class="greeting">
-                <div class="profile">ICON</div>
-                <div> Hi there, Morgan Oakley(@morgan)</div>
-                <div class="head-button"> New</div>
-                <div class="head-button"> Upload</div>
-                <div class="head-button"> Share</div>
+                <div><img src="images/account-circle.svg" alt="logo Icon" class="profile-pic"></div>
+                <div class="greeting-text"><p> Hi there, Morgan Oakley(@morgan)</p></div>
+                <div class="head-button"><button>New</button></div>
+                <div class="head-button"><button>Upload</button></div>
+                <div class="head-button"><button>Share</button></div>
             </div>
         </div>
         <div class="sidebar">
             <ul class="menu">
+                <li><span class="icon"><img src="images/logo.svg" alt="logo Icon"></span> <span class="menu-text">Dashboard</span></li>
                 <li><span class="icon"><img src="images/home.svg" alt="Home Icon"></span> <span class="menu-text">Home</span></li>
                 <li><span class="icon"><img src="images/account-card.svg" alt="Profile Icon"></span> <span class="menu-text">Profile</span></li>
                 <li><span class="icon"><img src="images/message.svg" alt="Messages Icon"></span> <span class="menu-text">Messages</span></li>
                 <li><span class="icon"><img src="images/history.svg" alt="History Icon"></span> <span class="menu-text">History</span></li>
                 <li><span class="icon"><img src="images/notes.svg" alt="Tasks Icon"></span> <span class="menu-text">Tasks</span></li>
+                <li><span class="icon"><img src="images/community.svg" alt="Community Icon"></span> <span class="menu-text">Communities</span></li>
+                <li><span class="icon"><img src="images/settings.svg" alt="Settings Icon"></span> <span class="menu-text">Settings</span></li>
+                <li><span class="icon"><img src="images/support.svg" alt="Suport Icon"></span> <span class="menu-text">Support</span></li>
+                <li><span class="icon"><img src="images/privacy.svg" alt="Privacy Icon"></span> <span class="menu-text">Privacy</span></li>
             </ul>
         </div>
         <div class="main-content">
@@ -41,27 +48,57 @@
             <div class = "projects">
                 <div class="card">
                     <p class="project-title"> Super Cool Project</p>
-                    <p> I am a super cool project. The absolute best. No other project compares to this one. This one is the best. Best project!</p>
+                    <p class="project-details"> I am a super cool project. The absolute best. No other project compares to this one. This one is the best. Best project!</p>
+                    <div class="icon-container">
+                        <img  class="icon-row favorite" src="images/star.svg" alt="favorite">
+                        <img class="icon-row eye" src="images/eye.svg" alt="eye">
+                        <img class="icon-row share" src="images/share.svg" alt="share">
+                    </div>
                 </div>
                 <div class="card">
                     <p class="project-title"> Less Cool Project</p>
-                    <p> I am a Less cool project. The not really the best. Many other projects compare to this one. This one is cool. Cool project!</p>
+                    <p class="project-details"> I am a Less cool project. The not really the best. Many other projects compare to this one. This one is cool. Cool project!</p>
+                    <div class="icon-container">
+                        <img  class="icon-row favorite" src="images/star.svg" alt="favorite">
+                        <img class="icon-row eye" src="images/eye.svg" alt="eye">
+                        <img class="icon-row share" src="images/share.svg" alt="share">
+                    </div>
                 </div>
                 <div class="card">
                     <p class="project-title"> Impossible App</p>
-                    <p> This app will never be complete. Super hard. The hardest. Some may say its impossible!</p>
+                    <p class="project-details"> This app will never be complete. Super hard. The hardest. Some may say its impossible!</p>
+                    <div class="icon-container">
+                        <img  class="icon-row favorite" src="images/star.svg" alt="favorite">
+                        <img class="icon-row eye" src="images/eye.svg" alt="eye">
+                        <img class="icon-row share" src="images/share.svg" alt="share">
+                    </div>
                 </div>
                 <div class="card">
                     <p class="project-title"> Easy Peasy App</p>
-                    <p> This app is super easy. Easy peasy. Will have no porblems with this app</p>
+                    <p class="project-details"> This app is super easy. Easy peasy. Will have no porblems with this app</p>
+                    <div class="icon-container">
+                        <img  class="icon-row favorite" src="images/star.svg" alt="favorite">
+                        <img class="icon-row eye" src="images/eye.svg" alt="eye">
+                        <img class="icon-row share" src="images/share.svg" alt="share">
+                    </div>
                 </div>
                 <div class="card">
                     <p class="project-title"> Ad Blocker</p>
-                    <p> I hate ads! Never see an add again! I hate ads so much I ended up making this.</p>
+                    <p class="project-details"> I hate ads! Never see an add again! I hate ads so much I ended up making this.</p>
+                    <div class="icon-container">
+                        <img  class="icon-row favorite" src="images/star.svg" alt="favorite">
+                        <img class="icon-row eye" src="images/eye.svg" alt="eye">
+                        <img class="icon-row share" src="images/share.svg" alt="share">
+                    </div>
                 </div>
                 <div class="card">
                     <p class="project-title"> Money maker</p>
-                    <p> Cha Ching! I will be a billionare from this. Never before seen tech. I will own a batcave.</p>
+                    <p class="project-details"> Cha Ching! I will be a billionare from this. Never before seen tech. I will own a batcave.</p>
+                    <div class="icon-container">
+                        <img  class="icon-row favorite" src="images/star.svg" alt="favorite">
+                        <img class="icon-row eye" src="images/eye.svg" alt="eye">
+                        <img class="icon-row share" src="images/share.svg" alt="share">
+                    </div>
                 </div>
             </div>
             <div class="anouncements-cont">
@@ -69,7 +106,7 @@
                     <p class="anouncement-title"> Less Cool Project</p>
                     <p> I am a Less cool project. The not really the best. Many other projects compare to this one. This one is cool. Cool project!</p>
                 </div>
-                <div><p class="anouncment-title"> Trending</p></div>
+                <div><p class="anouncement-title"> Trending</p></div>
                 <div class="card">
                     <p> I am a Less cool project. The not really the best. Many other projects compare to this one. This one is cool. Cool project!</p>
                 </div>
